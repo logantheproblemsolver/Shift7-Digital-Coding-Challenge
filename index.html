@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shift7 Digital </title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Public+Sans&display=swap" rel="stylesheet">  </head>
+  <header class="header mobileMode"> 
+      <nav class="nagivagation">
+            <a class="navigationIcons" id="cart">🛒</a>
+            <a class="navigationIcons" id="signIn" href="google.com">👤</a>
+            <button type="submit" class="navigationIcons" id="searchButton">🔍</button>
+            <ul class="menu">
+                <li class="toggle" id="hamburgerMenu">☰</li>
+                <li class="logo"><img src="Logo.PNG" alt="Lincoln Electric logo"></li>
+                <li class="item toggles">Solutions
+                    <ul class="subnav">
+                        <li class="items">Solutions By Industry</li>
+                        <li class="items">Solutions By Process</li>
+                        <li class="items">Solftware Solutions</li>
+                        <li class="items">Service</li>
+                    </ul>
+                </li>
+                <li class="item"><a href="https://loganellis.me">Products</a></li>
+                <li class="item"><a href="https://loganellis.me">Automation</a></li>
+                <li class="item"><a href="https://loganellis.me">Education</a></li>
+                <li class="item"><a href="https://loganellis.me">Resources</a></li>
+            </ul>
+
+        </nav>
+  </header>
+  <main class="main mobileMode">
+    <div class="body">
+        <img src="MobileImage.PNG" alt="mobile image for Lincon Electric"/>
+    </div>
+  </main>
+  
+    <header class="header desktopMode dissapear">
+        <a class="navigationIcons" >🛒</a> 
+        <a class="navigationIcons" href="google.com">👤 Sign In</a>
+        <a class="navigationIcons" href="google.com">📍 Where to Buy/Rent</a>
+        <a class="navigationIcons" href="google.com">❔ Help</a>
+        <a class="navigationIcons" href="google.com">✅ Safety</a>
+        <a class="navigationIcons left" href="google.com">🏳 EN</a>
+                
+    </header>
+    <nav class="nagivagation desktopMode dissapear">
+        <ul class="menu">
+            <li class="logo"><img src="Logo.PNG" alt="Lincoln Electric logo"></li>  
+            <li class="item toggles">Solutions
+                <ul class="subnav">
+                    <li class="items">Solutions By Industry</li>
+                    <li class="items">Solutions By Process</li>
+                    <li class="items">Solftware Solutions</li>
+                    <li class="items">Service</li>
+                </ul>
+            </li>
+            <li class="item"><a href="https://loganellis.me">Products</a></li>
+            <li class="item"><a href="https://loganellis.me">Automation</a></li>
+            <li class="item"><a href="https://loganellis.me">Education</a></li>
+            <li class="item"><a href="https://loganellis.me">Resources</a></li>
+        </ul>
+        <label for="search" class="search" id="searchLabel">
+            <button type="submit" class="search" id="searchButton">🔍</button>
+            <input type="text" name="search" id="searchBox" class="search" placeholder="Search" />
+        </label>
+    </nav>
+    <main class="main desktopMode dissapear">
+        <div class="body">
+            <img src="DesktopImage.PNG" alt="desktop image for Lincoln Electric"/>
+        </div>
+    </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</html>

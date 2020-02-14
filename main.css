@@ -1,0 +1,191 @@
+@media screen and (min-width: 350px) {
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: #D0D0D0;
+
+    }
+
+    .dissapear {
+        display: none;
+    }
+
+
+    /* header styling */
+
+    header {
+        background-color: #D0D0D0;
+        display: block;
+        font-family: 'Public Sans', sans-serif;
+    }
+
+
+    /* navigation styling */
+
+    nav {
+        background: white;
+        padding: 5px 20px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    
+    nav button {
+        background-color: white;
+        border: none;
+    }
+
+    nav ul img {
+        width: 90px;
+        height: 40px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    .menu li {
+        font-size: 16px;
+        padding: 15px 5px;
+        background-color: white;
+    }
+
+
+    #hamburgerMenu {
+        color: black;
+        font-weight: bolder;
+        font-size: 28px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: white;
+        
+    }
+
+    .item, .items {
+        width: 100%;
+        text-align: left;
+        order: 3;
+        display: none;
+        cursor: pointer;
+        font-weight: bold;  
+    }
+
+    .item.active, .items.active {
+        display: block;
+    }
+
+    .navigationIcons {
+        float: right;
+        margin-top: 20px;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    /* main styling */
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 750px) {
+
+    .mobileMode {
+        display: none;
+    }
+
+    /* header styling */
+
+    header {
+        height: 25px;
+        background-color: black;
+    }
+
+
+    /* navigation stlying */
+
+    nav {
+        padding: 0px;
+    }
+
+    .menu li {
+        padding: 15px 10px;
+    }
+
+    .menu {
+        width: 90%;
+    }
+
+    .item {
+        display: block;
+        width: auto;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+
+    .left {
+        float: left;
+    }
+
+    .search {
+        position: absolute;
+        right: 3%;
+        top: 23px;
+    }
+
+    .navigationIcons {
+        font-size: 14px;
+        background-color: black;
+        color: white;
+        margin-top: 0px;
+        padding-right: 5px;
+    }
+
+    .subnav {
+        position: fixed;
+        margin-top: 10px;
+    }
+
+    .item {
+        padding-top: 5px;
+    }
+
+    #searchBox {
+        background-color: white;
+        height: 30px;
+        border: solid 1px lightgray;
+        border-right: none;
+    }
+
+    #searchButton {
+        position: absolute;
+        left: 40%;
+        font-size: 21px;
+        border: 1px solid lightgray;
+        border-left: none;
+    }
+
+
+}
